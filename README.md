@@ -3,7 +3,17 @@
 ## installation
 
 - install dependency via `npm install serverless-stage-variables-cli --save-dev`
+
 - add `serverless-stage-variables-cli` to the `serverless.yml`
+
+```
+...
+
+plugins:
+  - serverless-stage-variables-cli
+
+...
+```
 
 ## usage
 
