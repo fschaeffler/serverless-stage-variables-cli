@@ -1,5 +1,3 @@
-const apiGateway = require('./api-gateway')
-
 class ServerlessPlugin {
 	constructor(serverless, options) {
 		this.serverless = serverless;
