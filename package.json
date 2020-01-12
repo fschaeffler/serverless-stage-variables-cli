@@ -1,0 +1,21 @@
+{
+  "name": "serverless-stage-variables-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "serverless",
+    "api gateway",
+    "serverless plugins",
+    "api gateway stage variables"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fschaeffler/serverless-stage-variables-cli.git"
+  },
+  "author": {
+    "name": "Florian Schaeffler",
+    "email": "git@schf.de"
+  },
+  "license": "ISC"
+}
