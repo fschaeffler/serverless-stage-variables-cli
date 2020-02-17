@@ -85,6 +85,8 @@ class ServerlessPlugin {
 	}
 
 	async init () {
+		this.region = this.serverless.service.provider.region || 'us-east-1'
+
 		const credentials = this.serverless.providers.aws.getCredentials()
 		this.apiGateway = new this.serverless.providers.aws.sdk.APIGateway(credentials)
 
